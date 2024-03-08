@@ -1,0 +1,32 @@
+// 字體
+.text-notoSans {
+    font-family: 'Noto Sans TC';
+}
+
+// 前台 header-link,footer-link
+.primary-link {
+    color: $light;
+
+    &:hover {
+        transition: 0.5s;
+        color: $warning;
+    }
+}
+
+// 後台 <a> active
+.backend-active,
+.backend-active:focus 
+{
+    color: $white;
+}
+
+// 波浪背景圖
+.bg-wave {
+    background-image: url('/bg-wave.png');
+}
+
+// sweetAlert toast字體
+.swal2-popup.swal2-toast {
+    font-family: 'Noto Sans TC';
+    font-size: 18px;
+}

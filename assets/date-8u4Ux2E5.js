@@ -1,0 +1,1 @@
+function o(e){const t=new Date(e),n=t.getFullYear(),a=String(t.getMonth()+1).padStart(2,"0"),r=String(t.getDate()).padStart(2,"0");return`${n}-${a}-${r}`}function s(e){const t=new Date(e),n=String(t.getHours()).padStart(2,"0"),a=String(t.getMinutes()).padStart(2,"0");return`${n}:${a}`}export{s as a,o as f};

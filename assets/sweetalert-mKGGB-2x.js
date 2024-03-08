@@ -1,0 +1,1 @@
+import{S as s}from"./sweetalert2.all-WL1I6Ful.js";const e=s.mixin({toast:!0,width:370,showConfirmButton:!1,timer:1500}),n=(t,o,r)=>{e.fire({position:t,icon:o,text:r})},i=s.mixin({showConfirmButton:!0}),m=(t,o)=>{i.fire({icon:t,title:o})};export{m as s,n as t};

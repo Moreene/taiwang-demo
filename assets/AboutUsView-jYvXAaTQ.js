@@ -1,0 +1,1 @@
+import{B as e}from"./BannerComponent-mK4acRZ1.js";import{_ as n,h as t,o as s,l as a,j as r,e as c}from"./index-nfGaqpL4.js";const p={components:{BannerComponent:e}};function _(m,f,l,u,i,d){const o=t("BannerComponent");return s(),a(o,null,{default:r(()=>[c("關於我們 / About Us")]),_:1})}const C=n(p,[["render",_]]);export{C as default};

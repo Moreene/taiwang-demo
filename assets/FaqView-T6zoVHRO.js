@@ -1,1 +1,0 @@
-import{B as o}from"./BannerComponent-WpLbSJmz.js";import{_ as n,h as t,o as a,l as r,j as s,e as c}from"./index-E4fMwN8A.js";const p={components:{BannerComponent:o}};function _(m,f,l,i,d,u){const e=t("BannerComponent");return a(),r(e,null,{default:s(()=>[c("常見問題 / FAQ")]),_:1})}const C=n(p,[["render",_]]);export{C as default};

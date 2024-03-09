@@ -27,15 +27,15 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="fw-bold mb-24"><span class="text-title d-inline-block position-relative z-1">{{ productDetail.title }}</span></h2>
-                    <p class="fs-6 text-notoSans mb-32">{{ productDetail.description }}</p>
-                    <p class="text-notoSans text-gray mb-48 mb-lg-72">食材：
+                    <p class="fs-6 mb-32">{{ productDetail.description }}</p>
+                    <p class="text-gray mb-48 mb-lg-72">食材：
                         <template v-for="(item, index) in productDetail.ingredient" :key="'食材'+ index">
-                            <span class="text-notoSans text-gray">{{ item }}</span>
+                            <span class="text-gray">{{ item }}</span>
                             <span v-if="index < productDetail.ingredient.length - 1"
-                                class="text-notoSans text-gray">、</span>
+                                class="text-gray">、</span>
                         </template>
                     </p>
-                    <p class="fs-4 text-notoSans">NT$ {{ productDetail.price }} <span class="fs-7">/ {{
+                    <p class="fs-4">NT$ {{ productDetail.price }} <span class="fs-7">/ {{
                         productDetail.unit
                     }}</span></p>
                     <div class="d-flex">
@@ -60,16 +60,16 @@
                     <div class="col-lg-4">
                         <h3 class="h5 fw-bold"><i class="bi bi-highlighter"></i> 注意事項</h3>
                         <ul class="ps-28">
-                            <li class="text-notoSans mb-4">{{ productDetail.note }}</li>
-                            <li class="text-notoSans mb-4">請注意是否會對餐點的食材過敏，謝謝</li>
+                            <li class="mb-4">{{ productDetail.note }}</li>
+                            <li class="mb-4">請注意是否會對餐點的食材過敏，謝謝</li>
                         </ul>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="h5 fw-bold"><i class="bi bi-highlighter"></i> 外送須知</h3>
                         <ul class="ps-28">
-                            <li class="text-notoSans mb-4">截至2024/12/31止，每筆訂單皆免運費<br>- 限制距離15km以內</li>
-                            <li class="text-notoSans mb-4">最低消費滿 500 元，才享有外送服務</li>
-                            <li class="text-notoSans mb-4">餐點現點現做，收到後請即時享用</li>
+                            <li class="mb-4">截至2024/12/31止，每筆訂單皆免運費<br>- 限制距離15km以內</li>
+                            <li class="mb-4">最低消費滿 500 元，才享有外送服務</li>
+                            <li class="mb-4">餐點現點現做，收到後請即時享用</li>
                         </ul>
                     </div>
                     <div class="col-lg-4">

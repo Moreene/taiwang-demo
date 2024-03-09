@@ -15,7 +15,7 @@
                                 </div>
                             </div>
                             <div class="col-md-7 col-xl-8">
-                                <div class="text-md-start text-notoSans">
+                                <div class="text-md-start">
                                     {{ orderNum }}
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                                 </div>
                             </div>
                             <div class="col-md-7 col-xl-8">
-                                <div class="text-md-start text-notoSans">
+                                <div class="text-md-start">
                                     {{ orderDate }}<span class="ms-16">{{ orderTime }}</span>
                                 </div>
                             </div>

@@ -30,7 +30,7 @@
                                                     class="food-img">
                                             </th>
                                             <td>{{ item.product.title }}</td>
-                                            <td>NT$ <span class="text-notoSans">{{ item.product.price }}</span></td>
+                                            <td>NT$ {{ item.product.price }}</td>
                                             <td>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="input-group w-75 d-flex align-items-end">
@@ -49,8 +49,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="d-none d-md-table-cell">NT$ <span class="text-notoSans">
-                                                    {{ item.qty * item.product.price }}</span></td>
+                                            <td class="d-none d-md-table-cell">NT$ {{ item.qty * item.product.price }}</td>
                                             <td>
                                                 <a href="#" @click.prevent="deleteItem(item)"><i
                                                         class="bi bi-trash fs-5 link-gray"></i></a>
@@ -65,8 +64,8 @@
                                 <RouterLink to="/products" class="link-gold">繼續購物 <i class="bi bi-arrow-right"></i>
                                 </RouterLink>
                             </p>
-                            <span class="text-notoSans d-inline-block p-6 bg-danger text-white me-6">優惠促銷</span>
-                            <span class="text-notoSans">輸入「 <span ref="code">tai6666</span> 」優惠代碼再享 85 折
+                            <span class="fw-bold d-inline-block p-6 bg-danger text-white me-6">優惠促銷</span>
+                            <span class="fw-bold">輸入「 <span ref="code">tai6666</span> 」優惠代碼再享 85 折
                                 ﹙<a href="#" class="link-danger" @click.prevent="copyCode($event)">點我複製</a>﹚</span>
                         </div>
                     </div>
@@ -118,11 +117,11 @@
                                 <div class="border-bottom border-dark px-12 py-16">
                                     <div class="d-flex justify-content-between">
                                         <p>小計：</p>
-                                        <p>NT$ <span class="text-notoSans">{{ cart.total }}</span></p>
+                                        <p>NT$ {{ cart.total }}</p>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <p>運費：</p>
-                                        <p>NT$ <span class="text-notoSans">0</span></p>
+                                        <p>NT$ 0</p>
                                     </div>
                                     <p class="mb-8">優惠代碼</p>
                                     <div class="d-flex">
@@ -134,7 +133,7 @@
                                 <div class="px-12 py-24 pb-md-0">
                                     <div class="d-flex justify-content-between">
                                         <p class="fw-bold">合計：</p>
-                                        <p class="fw-bold">NT$ <span class="text-notoSans">{{ Math.round(cart.final_total) }}</span><span class="text-danger ms-4"
+                                        <p class="fw-bold">NT$ {{ Math.round(cart.final_total) }}<span class="text-danger ms-4"
                                                 v-if="cart.final_total !== cart.total">(已使用優惠)</span></p>
                                     </div>
                                     <button type="button" class="btn btn-primary text-white w-100"

@@ -11,7 +11,7 @@
                     <li class="mb-8 mb-md-20">
                         <h5 class="mb-0">營業資訊</h5>
                     </li>
-                    <li class="mb-8">時間：每天<span class="text-notoSans ms-8">11:00 ~ 21:00</span></li>
+                    <li class="mb-8">時間：每天<span class="ms-8">11:00 ~ 21:00</span></li>
                     <li class="mb-8">電話：<a href="tel:+886-2-2618-0123" class="primary-link text-notoSans">（02）2618-0123</a>
                     </li>
                     <li>地址：<a href="#" class="primary-link">新北市八里區龍源里汪汪街666號</a></li>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="py-10 text-center">
-                <p class="text-secondary text-notoSans fs-8 mb-0">本網站僅供個人作品使用，無任何商業用途</p>
+                <p class="text-secondary fs-8 mb-0">本網站僅供個人作品使用，無任何商業用途</p>
             </div>
         </div>
     </footer>

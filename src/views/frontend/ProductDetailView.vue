@@ -65,7 +65,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <h3 class="h5 fw-bold"><i class="bi bi-highlighter"></i> 外送須知</h3>
+                        <h3 class="h5 fw-bold"><i class="bi bi-highlighter"></i> 外送需知</h3>
                         <ul class="ps-28">
                             <li class="mb-4">截至2024/12/31止，每筆訂單皆免運費<br>- 限制距離15km以內</li>
                             <li class="mb-4">最低消費滿 500 元，才享有外送服務</li>
@@ -75,7 +75,7 @@
                     <div class="col-lg-4">
                         <h3 class="h5 fw-bold"><i class="bi bi-highlighter"></i> 付款方式</h3>
                         <ul class="ps-28">
-                            <li class="text-notoSans">線上訂餐僅接受信用卡信上付款</li>
+                            <li class="text-notoSans">線上訂餐僅接受信用卡線上付款</li>
                         </ul>
                     </div>
                 </div>
